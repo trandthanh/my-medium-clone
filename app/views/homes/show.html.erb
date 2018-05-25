@@ -1,5 +1,6 @@
 <h1>MyMediumClone</h1>
 
-<% @posts.each do |p| %>
-  <%= p.title %>
-<% end %>
+<div class="posts">
+  <%= render @posts %>
+</div>
+
