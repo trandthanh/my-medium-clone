@@ -30,6 +30,9 @@ end
 group :test do
   gem 'capybara', '~> 3.1.0'
   gem 'database_cleaner', '~> 1.7'
+  gem "factory_bot_rails", "~> 4.0"
+  gem 'faker', '~> 1.8'
+  gem 'launchy', '~> 2.4', '>= 2.4.3'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
